@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>MiniSpace - 1Sync Demo Game</title>
+  </head>
+  <body style="text-align: center;background-color: #231F20;">
+    <canvas id="unity-canvas" width=1108 height=632 style="width: 1108px; height: 632px; background: #231F20"></canvas>
+    <div class="centered">
+      <h2>User wallet address</h2>
+      <p id="userAddress">0x0</p>
+    </div>
+    <button id="homeButton" onclick="mintSignature()">Go to Home</button>
+
+    <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+    <script src="TemplateData/web3.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      var osyUnityInstance
+    </script>
+    <script src="./WebHelper.js"></script>
+    <script>
+      var buildUrl = "Build";
+      var authenticationType = 2; // 1 = guest, 2 = crypto wallet *** this should be manipulated by php
+      var isPageReady = false;
+      var isAppReady = false;
+
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+        frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+        codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+        // dataUrl: buildUrl + "/unity-export.data",
+        // frameworkUrl: buildUrl + "/unity-export.framework.js",
+        // codeUrl: buildUrl + "/unity-export.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "NFT1FORGE",
+        productName: "MiniSpace",
+        productVersion: "221001.00",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      })
+      .then((unityInstance) => {
+        osyUnityInstance = unityInstance
+      }).catch((message) => {
+        alert(message);
+      })
+
+      isPageReady = true;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bar-atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 133435700ae5f496b9ef64537a6a5e85, type: 3}
+    - {fileID: 2800000, guid: ce48e7603bb77440a8d7a4deedc27e3c, type: 3}
+    - {fileID: 2800000, guid: d08bf721b1c684b3c847a91174149b02, type: 3}
+    - {fileID: 2800000, guid: 21c2328eea0834f79b8bbffe075e86ad, type: 3}
+    - {fileID: 2800000, guid: 8f7768d138eca405991707e698ba954d, type: 3}
+    - {fileID: 2800000, guid: 1c7a83b0f6f6545aeb0edea5c2db2308, type: 3}
+    - {fileID: 2800000, guid: c2ac2bfca941344bd9ea003a00e4b98a, type: 3}
+    - {fileID: 2800000, guid: 892b839a288dd4691bbbb2835c4a4847, type: 3}
+    - {fileID: 2800000, guid: 6d36cc3965e9f435f8f5e2b720c4a35a, type: 3}
+    - {fileID: 2800000, guid: d6df0f40720f24c559c937a021d546da, type: 3}
+    - {fileID: 2800000, guid: fe2ecb4823b6541d898ac47e5cb555dc, type: 3}
+    - {fileID: 2800000, guid: 2f0cbc5b4faf0463294a2c3d826b7aa6, type: 3}
+    - {fileID: 2800000, guid: d490beb18e5c94ce496780b00c8fee43, type: 3}
+    - {fileID: 2800000, guid: ad8adc6c4eb0941428983c0529a645d3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d6df0f40720f24c559c937a021d546da, type: 3}
+  - {fileID: 21300000, guid: ce48e7603bb77440a8d7a4deedc27e3c, type: 3}
+  - {fileID: 21300000, guid: 133435700ae5f496b9ef64537a6a5e85, type: 3}
+  - {fileID: 21300000, guid: 1c7a83b0f6f6545aeb0edea5c2db2308, type: 3}
+  - {fileID: 21300000, guid: d08bf721b1c684b3c847a91174149b02, type: 3}
+  - {fileID: 21300000, guid: d490beb18e5c94ce496780b00c8fee43, type: 3}
+  - {fileID: 21300000, guid: 8f7768d138eca405991707e698ba954d, type: 3}
+  - {fileID: 21300000, guid: fe2ecb4823b6541d898ac47e5cb555dc, type: 3}
+  - {fileID: 21300000, guid: 6d36cc3965e9f435f8f5e2b720c4a35a, type: 3}
+  - {fileID: 21300000, guid: 892b839a288dd4691bbbb2835c4a4847, type: 3}
+  - {fileID: 21300000, guid: 2f0cbc5b4faf0463294a2c3d826b7aa6, type: 3}
+  - {fileID: 21300000, guid: ad8adc6c4eb0941428983c0529a645d3, type: 3}
+  - {fileID: 21300000, guid: c2ac2bfca941344bd9ea003a00e4b98a, type: 3}
+  - {fileID: 21300000, guid: 21c2328eea0834f79b8bbffe075e86ad, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - progress-bar-n
+  - top-ui-bar
+  - bar
+  - hp-green
+  - top-ui-bar-2
+  - bar-inventory-type
+  - hp-bg
+  - slider-vertical-blue
+  - progress-bar-level
+  - progress-bar-bg
+  - slider-vertical-pink
+  - icon-energy
+  - hp-red
+  - gold-bar
+  m_RenderDataMap: {}
+  m_Tag: bar-atlas
+  m_IsVariant: 0

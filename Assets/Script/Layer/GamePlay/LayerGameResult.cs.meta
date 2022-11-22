@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: f1992463d1ff547cc8b305c4ec282e92
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ImagePilot: {instanceID: 0}
+  - m_ImageSpaceship: {instanceID: 0}
+  - m_ImageChest: {instanceID: 0}
+  - m_ButtonDone: {instanceID: 0}
+  - m_TextScore: {instanceID: 0}
+  - m_TextGoldCollected: {instanceID: 0}
+  - m_TextPilotAbility: {instanceID: 0}
+  - m_TextGold: {instanceID: 0}
+  - m_TextBossKilled: {instanceID: 0}
+  - m_TextEnemyKilled: {instanceID: 0}
+  - m_PassProgressBar: {instanceID: 0}
+  - m_ImageChestTransform: {instanceID: 0}
+  - m_ChestProgress: {instanceID: 0}
+  - m_WeaponProgress: {instanceID: 0}
+  - m_PassProgress: {instanceID: 0}
+  - m_SfxOk: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
